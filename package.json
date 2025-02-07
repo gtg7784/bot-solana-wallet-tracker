@@ -1,8 +1,8 @@
 {
-  "name": "bot-coffee-airdrop",
+  "name": "bot-solana-wallet-tracker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "tsx index",
     "dev": "tsx watch index",
@@ -21,6 +21,8 @@
     "vitest": "^3.0.2"
   },
   "dependencies": {
-    "fetch": "^1.1.0"
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.7.9",
+    "puppeteer": "^24.1.1"
   }
 }
